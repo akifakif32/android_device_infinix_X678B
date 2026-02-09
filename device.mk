@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The Infinity-X Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -315,7 +315,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayVeritas \
     SystemUIResOverlayVeritas \
     TetheringResOverlayVeritas \
-    WifiResOverlayVeritas
+    WifiResOverlayVeritas \
+    UpdaterResOverlayVeritas
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
