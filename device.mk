@@ -161,9 +161,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ANGLE
 
-# Dolby
-$(call inherit-product, vendor/sony/dolby/setup.mk)
-
 # DRM
 PRODUCT_PACKAGES += \
     com.android.hardware.drm.clearkey
@@ -204,8 +201,8 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health-service.example \
-    android.hardware.health-service.example-recovery \
+    android.hardware.health-service.mediatek \
+    android.hardware.health-service.mediatek-recovery \
     charger_res_images_vendor
 
 # HIDL
