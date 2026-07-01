@@ -122,14 +122,17 @@ blob_fixups: blob_fixups_user_type = {
     (
         'vendor/lib64/hw/sensors.mediatek.V2.0.so',
         'vendor/lib64/libcodec2_mtk_c2store.so',
-        'vendor/lib64/libcodec2_mtk_vdec.so',
-        'vendor/lib64/libcodec2_mtk_venc.so',
         'vendor/lib64/libcodec2_vpp_qt_plugin.so',
         'vendor/lib64/libcodec2_vpp_rs_plugin.so'
     ): blob_fixup()
         .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
     'vendor/lib64/librt_extamp_intf.so': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/bin/mnld': blob_fixup()
+        .replace_needed('libmnl.so', 'libmnl_mtk.so'),
+    ('vendor/lib64/libcodec2_mtk_vdec.so', 'vendor/lib64/libcodec2_mtk_venc.so'): blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so')
+        .replace_needed('libformatter.so', 'libformatter_mtk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
