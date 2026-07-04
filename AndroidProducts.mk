@@ -1,7 +1,7 @@
 #
-# SPDX-FileCopyrightText: The Infinity-X Project
+# SPDX-FileCopyrightText: Project CiRCLE
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_X678B.mk
+    $(LOCAL_DIR)/circle_X678B.mk
