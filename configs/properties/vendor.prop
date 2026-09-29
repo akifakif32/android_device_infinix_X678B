@@ -320,3 +320,5 @@ ro.vendor.wifi.sap.concurrent.iface=ap1
 ro.vendor.wifi.sap.interface=ap0
 ro.vendor.wlan.chrdev=wmt_chrdev_wifi
 ro.vendor.wlan.gen=gen4m_6789
+ro.vendor.mtk_sim_card_onoff=3
+ro.telephony.sim.count=2
