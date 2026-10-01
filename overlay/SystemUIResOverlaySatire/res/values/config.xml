@@ -42,5 +42,5 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     
     <!-- Shift status bar content down to align with the camera cutout -->
-    <dimen name="status_bar_padding_top">24px</dimen>
+    <dimen name="status_bar_padding_top">4px</dimen>
 </resources>
