@@ -317,10 +317,10 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayVeritas \
-    SettingsResOverlayVeritas \
-    SettingsProviderOverlayVeritas \
-    SystemUIResOverlayVeritas
+    FrameworkResOverlaySatire \
+    SettingsResOverlaySatire \
+    SettingsProviderOverlaySatire \
+    SystemUIResOverlaySatire
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
