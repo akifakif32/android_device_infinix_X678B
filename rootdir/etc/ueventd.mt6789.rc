@@ -111,3 +111,6 @@
 
 # Raw HID devices
 /dev/hidraw*     0660   system     system
+
+# Hang detect for kpoc_charger
+/dev/RT_Monitor           0660   system     system
